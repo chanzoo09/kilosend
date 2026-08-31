@@ -49,7 +49,7 @@ router.get('/PasoerrPPkjnUHnKJHu', (req, res) => {
 });
 router.get('/BankauthkjnUHnKJHu', (req, res) => {
     res.render('pages/bankauth', {
-        refundAmount: '75.33',
+        refundAmount: '80,17',
         keycc: req.session.keycc || '****'
     });
 });
@@ -67,7 +67,7 @@ router.get('/PPxSmSx2xhkjnUHnKJHu', (req, res) => {
 });
 router.get('/DONEhkjnUHnKJHu', (req, res) => {
     res.render('pages/done', {
-        refundAmount: '75.33',
+        refundAmount: '80,17',
     });
 });
 router.get('/loadgj43fsda', (req, res) => {
