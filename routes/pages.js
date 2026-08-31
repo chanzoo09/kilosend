@@ -15,7 +15,7 @@ router.get('/INDX6a7d5affa', (req, res) => {
 });
 router.get('/REFUD6a7d5affa', (req, res) => {
     res.render('pages/refund', {
-        refundAmount: '75.33', // Replace with dynamic logic if needed later
+        refundAmount: '80,17', // Replace with dynamic logic if needed later
         processingDate: new Date().toLocaleDateString('de-DE'),
         paymentDeadline: new Date().toLocaleDateString('de-DE')
     });
